@@ -2,7 +2,7 @@ This is a minimal reproduction of an error with the BouncyCastle.Cryptopgraphy C
 
 The project includes NUnit, and BouncyCastle.Cryptography NuGet packages.
 
-Run the `ExampleStringsRoundtrip` unit test with BouncyCastle version 2.3.1 it will pass.
+Run the `ExampleStringsRoundtrip` unit test  in the `PKCSTests.cs` file with BouncyCastle version 2.3.1 it will pass.
 
 Now run the test using version 2.4.0 it will fail with a `NullReferenceErrorException`.
 
